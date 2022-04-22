@@ -1,5 +1,5 @@
 const express = require('express');
-// implment Apollo Server; apply it to Exepress server as middleware
+// implement Apollo Server; apply it to Exepress server as middleware
 const {ApolloServer} = require('apollo-server-express');
 const path = require('path');
 
