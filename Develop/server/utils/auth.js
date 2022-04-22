@@ -1,3 +1,5 @@
+// auth.js needs to have auth middleware fxn updated to work w/ GraphQL API (??)
+
 const jwt = require('jsonwebtoken');
 
 // set token secret and expiration date
