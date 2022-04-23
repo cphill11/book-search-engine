@@ -1,6 +1,5 @@
 // Define the query and mutation functionality to work with the Mongoose models.
 
-// TEMPLATE
 const { AuthenticationError } = require("apollo-server-express");
 const { User } = require("../models");
 const { signToken } = require("../utils/auth");
