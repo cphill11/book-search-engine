@@ -60,7 +60,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 * 
 
 ## Links
-Github: https://cphill11.github.io/book-search-engine/
+Github: https://github.com/cphill11/book-search-engine.git
 Heroku: https://clp-book-search-engine.herokuapp.com/
 
 ## Image
