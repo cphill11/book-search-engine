@@ -60,7 +60,8 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 * 
 
 ## Links
-Github:
+Github: https://cphill11.github.io/book-search-engine/
+Heroku: 
 
 ## Image
 ![Screenshot](/assets/images/screenshot.png)
