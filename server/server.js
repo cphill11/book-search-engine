@@ -31,12 +31,6 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')))
 }
 
-// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/book-search-engine', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// });
-
-
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));
 });
