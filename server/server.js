@@ -27,7 +27,7 @@ startServer()
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/pizza-hunt', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/book-search-engine', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
